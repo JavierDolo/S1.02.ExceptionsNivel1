@@ -12,7 +12,7 @@ public class Main {
         }
 
         sale.addProduct(new Product("Book", 14.90));
-        sale.addProduct(new Product("Pen", 1.50));
+        sale.addProduct(new Product("Pen", 1.55));
 
         try{
             sale.calculateTotalPrice();
